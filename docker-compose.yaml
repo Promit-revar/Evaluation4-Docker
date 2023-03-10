@@ -57,6 +57,7 @@ services:
       DB_PASSWORD: postgres
       DB_NAME: auth
       DB_PORT: 5432
+      REDIS_HOST: redis
       NODE_ENV: docker
 
   backendmigration:
@@ -107,4 +108,5 @@ services:
       DB_BACKEND_PASSWORD: postgres
       DB_BACKEND_NAME: postgres
       DB_BACKEND_PORT: 5432
+      REDIS_HOST: redis
       NODE_ENV: docker
